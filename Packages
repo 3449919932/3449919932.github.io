@@ -1,18 +1,19 @@
-Package: com.dafeiyu.nochevron
-Architecture: iphoneos-arm64e
-Version: 1.0-3
+Package: com.llld.fugap
+Architecture: iphoneos-arm64
+Version: 2.2.4-1
+Priority: optional
 Section: Tweaks
-Maintainer: 大飞鱼
-Installed-Size: 168
-Depends: mobilesubstrate, firmware (>= 16.0), firmware (<< 18.0)
-Filename: debs/com.dafeiyu.nochevron_1.0-3_iphoneos-arm64e.deb
-Size: 4234
-MD5sum: 05b9cb26d915d734f6b099389e43daef
-SHA1: 697d9b52223394bac893bf4dc14a5d4b0afd2041
-SHA256: b599ab30e1ea63826571c2cba20e3ba0a3f220c250918f3fe2efe51a7e044fff
-SHA512: cbd4c2798e2fffc7fad6da03f72f763ad5575418bc1da17c3a4ec7652a594d92f022673054794643ae03134769b73a16b7e77885b68e89a98de9d294229591e6
-Description: 独立插件，隐藏控制中心顶部的「拉手」(chevron)
-Tag: compatible_min::ios16.0
-Name: NoChevron
-Author: 大飞鱼
+Maintainer: 来了老弟 (repack fix)
+Installed-Size: 584
+Depends: mobilesubstrate | ellekit
+Filename: debs/控制中心间距调整.deb
+Size: 143564
+MD5sum: b17bf7ddbc6e7e0082e3b56de4b0f3d4
+SHA1: 685c1db62bb3a340ca156f4c01559401998f3787
+SHA256: b97ebc0483989790a24b21e7441f4c6754dc7593b9d5ba6e651ded47271099eb
+SHA512: 83a278e9a285fd814919f5c7a7f62221bd41dd64e16650d3f345be39df2e4038c75e58125689a37aa32d213f680b64fd3b9eb7178b98193f52574628e042e40a
+Description: 调节控制中心空白部分以及隐藏状态栏（rootless / Dopamine / iOS16 修复版）
+ 修正：去掉对 libcolorpicker 的硬依赖，避免 dylib 加载失败导致插件完全无效果。
+Author: smokin1337
+Name: FUGap控制中心间距-rootless
 
