@@ -1,5 +1,5 @@
 Origin: 
-Label: 蟹老板
+Label: 
 Suite: stable
 Version: 1.0
 Codename: ios
@@ -9,8 +9,8 @@ Description:
 Support: https://3449919932.github.io/
 Icon: https://3449919932.github.io/CydiaIcon.png
 MD5Sum:
- 2a4bb3086aee50e18a45c6c11b08e3bb  5074 Packages
- f4b0e2be2858ac4a8260d6aa1de0fbcf  2168 Packages.gz
+ 56be0053e40b002f5e4c05189b3fe967  19754 Packages
+ 30e01b3c83923d5cf8619bf8835264a2  5877 Packages.gz
 SHA256:
- cafdc424d69f845b278b9cfd73d9f5cdef82688f23d466f994fc4685e96f5afb  5074 Packages
- db9cbc37fb47696286c85f051d52b11f2fd6fd0a1f98e6f4c53845c52d35c3fa  2168 Packages.gz
+ 43dab960eec266b4ab71d043f9f1ded23eef10b816f3af582366cec4c8293e56  19754 Packages
+ fd8404ce7a87a6602d3079055edba4166acaa5ae5c0addc6d914bca727530fd0  5877 Packages.gz

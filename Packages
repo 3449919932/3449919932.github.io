@@ -1,3 +1,184 @@
+Package: com.evgeniy558.controlcenter18
+Architecture: iphoneos-arm64e
+Version: 3.0-beta+ccborderpower.14+shift22
+Section: Tweaks
+Maintainer: evgeniy558
+Installed-Size: 34537
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, firmware (>= 16.0), firmware (<< 18.0), preferenceloader, uikittools, launchctl
+Filename: debs/ControlCenter18-3.0_dafeiyu_-roothide.deb
+Size: 16334116
+MD5sum: d1a6037bfef03bd31d33d428d68f265d
+SHA1: 9c6f1928291a8742602095579262b541424eb013
+SHA256: f1ccc72d6b696204a611fbf204129a7fa84dcd0c320d5cf4f01b668c10fe9c91
+SHA512: 2643c87e3ac51c2509095d97d033abaf02a06a1104521c032d1392e9dc768a0b4e9b37d2e9b1f4b1a346b1ca26cbad708af04741b59c461a72c900ba810b5d60
+Description: The full iOS 18 Control Center for iOS 16 and 17 (iPhone only).
+ ControlCenter18 brings the full iOS 18 Control Center to iOS 16 and 17. It's not a theme or a reskin: modules, pages and gestures work the same way they do on iOS 18.
+ .
+ iPhone only. iPad is not supported.
+ .
+ Pages and Customizable Modules
+ Control Center is no longer limited to a single page. Add as many pages as you like and move between them with a swipe or with the indicator on the side. Every module is customizable: change the size of any module to 1×1, 1×2 or 2×2. Some modules, such as the player, can be resized even more flexibly.
+ .
+ Editing Right in Control Center
+ Tap "+" in the top-left corner of the screen or press and hold an empty spot to enter edit mode. Move modules or remove the ones you don't need right in Control Center, with no need to open Settings.
+ .
+ Connectivity Module
+ Wi-Fi, Bluetooth, AirDrop, Cellular Data, Personal Hotspot, VPN and Airplane Mode are all together in the new Connectivity module. Open the module to see all of its buttons as a list.
+ .
+ Player
+ The player module now shows the album artwork, with a soft glow around it that matches the colors of the song that's playing, just like on iOS 18.
+ .
+ Everything Else
+ Focus, Flashlight, Timer, Calculator, Camera, Code Scanner, Silent Mode, Hearing and other system modules are redrawn in the iOS 18 style. Shortcut and Open App controls are included too, and Settings › Control Center looks like it does on iOS 18, including "Reset Control Center".
+ .
+ Settings
+ You'll find the tweak in Settings › ControlCenter18. It's turned off after installation, so turn it on and respring. There you can also save your layout as a preset to import later, and if SpringBoard ever crashes, send us the crash log in one tap (logs are kept for 3 days).
+ .
+ Before You Start
+ Turn off other tweaks that change Control Center: themes, module styles and custom layouts. ControlCenter18 draws the whole Control Center itself, so they will conflict.
+ .
+ This is a beta. If something doesn't work, send us the crash log from the settings and we'll fix it.
+ .
+ ControlCenter18 переносит полноценный пункт управления из iOS 18 на iOS 16 и 17. Это не тема и не перерисовка: модули, страницы и жесты работают так же, как на iOS 18.
+ .
+ Только iPhone. iPad не поддерживается.
+ .
+ Страницы и настраиваемые модули
+ Пункт управления больше не ограничен одной страницей. Добавляйте сколько угодно страниц и удобно переключайтесь между ними свайпами или с помощью индикатора сбоку. Каждый модуль настраивается: у любого модуля можно изменить размер на 1×1, 1×2 или 2×2. А у некоторых модулей, например у плеера, размер настраивается ещё гибче.
+ .
+ Редактирование прямо в шторке
+ Нажмите «+» в левом верхнем углу экрана или зажмите свободное место, чтобы войти в режим редактирования. Перемещайте модули и убирайте ненужные прямо в пункте управления — заходить для этого в настройки не нужно.
+ .
+ Модуль связи
+ Wi-Fi, Bluetooth, AirDrop, сотовые данные, режим модема, VPN и авиарежим собраны в новом модуле связи. Откройте модуль, чтобы увидеть все его кнопки в виде списка.
+ .
+ Плеер
+ Модуль плеера теперь показывает обложку, а вокруг неё — лёгкое свечение в цвет проигрываемой песни, точно так же, как на iOS 18.
+ .
+ Всё остальное
+ Фокусирование, фонарик, таймер, калькулятор, камера, сканер кода, бесшумный режим, слух и другие системные модули перерисованы в стиле iOS 18. Есть и элементы управления «Быстрая команда» и «Открыть приложение», а раздел «Настройки» › «Пункт управления» выглядит так же, как в iOS 18, вместе с кнопкой «Сбросить пункт управления».
+ .
+ Настройки
+ Твик находится в разделе «Настройки» › «ControlCenter18». После установки он выключен — включите его и сделайте респринг. Там же можно сохранить пресет, импортировать, а ещё отправить нам крашлог.
+ .
+ Перед началом
+ Отключите другие твики, которые меняют пункт управления: темы, стили модулей и собственные раскладки. ControlCenter18 сам рисует весь пункт управления, поэтому они будут конфликтовать.
+ .
+ Это бета-версия. Если что-то не работает, отправьте нам крашлог из настроек, и мы всё исправим.
+ .
+ .
+ Repo: https://repo.ya-ebal.mom
+ .
+ Local RootHide modification: hold the power button to open the eight-item
+ CCBorder menu, slide to select, and release to perform the action.
+ Native UIKit menu with 225-point menu and list measurement.
+ Adaptive system ultra-thin material, native labels and animation.
+ Original button press effect with native highlight completion adapter.
+ Module activation style 2, native hold-and-slide
+ selection. Scoped display-rate request.
+ Per-presentation cleanup and original-parent geometry.
+ Native status-bar layout without extra secondary-SIM translation.
+ Preserves jailbreak crash handlers. No added diagnostic UI or recording.
+ CCBorder is not required.
+ .
+ Layout mod (roothide): Control Center modules shifted down 22pt, header unchanged.
+ .
+Name: ControlCenter18
+Author: evgeniy558
+Icon: file:///Library/PreferenceBundles/ControlCenter18Prefs.bundle/header-icon@3x.png
+SileoDepiction: file:///Library/PreferenceBundles/ControlCenter18Prefs.bundle/Depiction/depiction.json
+
+Package: com.evgeniy558.controlcenter18
+Architecture: iphoneos-arm64
+Version: 3.0-beta+ccborderpower.14+shift22
+Section: Tweaks
+Maintainer: evgeniy558
+Installed-Size: 17265
+Depends: mobilesubstrate, firmware (>= 16.0), firmware (<< 18.0), preferenceloader, uikittools, launchctl
+Filename: debs/ControlCenter18-3.0_dafeiyu_-rootless.deb
+Size: 8152074
+MD5sum: 61023c902bde37313d375f7f0dff9ff5
+SHA1: 87cf84529cf1d99c66834b13b257281e5dbb1ee1
+SHA256: 20a62a4d220a19f52a9c438391fa3ac211141e6f7e624ce1c2a1f342d4dcd546
+SHA512: 1143f385dfe391bf9b49fce10d935d465ea606b24870c4f3b3fa5bcc10bba01c3b538087a4f1ebf08e2307802c0f7dc4a3f1245635a4f21d9b7524d3a351454b
+Description: The full iOS 18 Control Center for iOS 16 and 17 (iPhone only).
+ ControlCenter18 brings the full iOS 18 Control Center to iOS 16 and 17. It's not a theme or a reskin: modules, pages and gestures work the same way they do on iOS 18.
+ .
+ iPhone only. iPad is not supported.
+ .
+ Pages and Customizable Modules
+ Control Center is no longer limited to a single page. Add as many pages as you like and move between them with a swipe or with the indicator on the side. Every module is customizable: change the size of any module to 1×1, 1×2 or 2×2. Some modules, such as the player, can be resized even more flexibly.
+ .
+ Editing Right in Control Center
+ Tap "+" in the top-left corner of the screen or press and hold an empty spot to enter edit mode. Move modules or remove the ones you don't need right in Control Center, with no need to open Settings.
+ .
+ Connectivity Module
+ Wi-Fi, Bluetooth, AirDrop, Cellular Data, Personal Hotspot, VPN and Airplane Mode are all together in the new Connectivity module. Open the module to see all of its buttons as a list.
+ .
+ Player
+ The player module now shows the album artwork, with a soft glow around it that matches the colors of the song that's playing, just like on iOS 18.
+ .
+ Everything Else
+ Focus, Flashlight, Timer, Calculator, Camera, Code Scanner, Silent Mode, Hearing and other system modules are redrawn in the iOS 18 style. Shortcut and Open App controls are included too, and Settings › Control Center looks like it does on iOS 18, including "Reset Control Center".
+ .
+ Settings
+ You'll find the tweak in Settings › ControlCenter18. It's turned off after installation, so turn it on and respring. There you can also save your layout as a preset to import later, and if SpringBoard ever crashes, send us the crash log in one tap (logs are kept for 3 days).
+ .
+ Before You Start
+ Turn off other tweaks that change Control Center: themes, module styles and custom layouts. ControlCenter18 draws the whole Control Center itself, so they will conflict.
+ .
+ This is a beta. If something doesn't work, send us the crash log from the settings and we'll fix it.
+ .
+ ControlCenter18 переносит полноценный пункт управления из iOS 18 на iOS 16 и 17. Это не тема и не перерисовка: модули, страницы и жесты работают так же, как на iOS 18.
+ .
+ Только iPhone. iPad не поддерживается.
+ .
+ Страницы и настраиваемые модули
+ Пункт управления больше не ограничен одной страницей. Добавляйте сколько угодно страниц и удобно переключайтесь между ними свайпами или с помощью индикатора сбоку. Каждый модуль настраивается: у любого модуля можно изменить размер на 1×1, 1×2 или 2×2. А у некоторых модулей, например у плеера, размер настраивается ещё гибче.
+ .
+ Редактирование прямо в шторке
+ Нажмите «+» в левом верхнем углу экрана или зажмите свободное место, чтобы войти в режим редактирования. Перемещайте модули и убирайте ненужные прямо в пункте управления — заходить для этого в настройки не нужно.
+ .
+ Модуль связи
+ Wi-Fi, Bluetooth, AirDrop, сотовые данные, режим модема, VPN и авиарежим собраны в новом модуле связи. Откройте модуль, чтобы увидеть все его кнопки в виде списка.
+ .
+ Плеер
+ Модуль плеера теперь показывает обложку, а вокруг неё — лёгкое свечение в цвет проигрываемой песни, точно так же, как на iOS 18.
+ .
+ Всё остальное
+ Фокусирование, фонарик, таймер, калькулятор, камера, сканер кода, бесшумный режим, слух и другие системные модули перерисованы в стиле iOS 18. Есть и элементы управления «Быстрая команда» и «Открыть приложение», а раздел «Настройки» › «Пункт управления» выглядит так же, как в iOS 18, вместе с кнопкой «Сбросить пункт управления».
+ .
+ Настройки
+ Твик находится в разделе «Настройки» › «ControlCenter18». После установки он выключен — включите его и сделайте респринг. Там же можно сохранить пресет, импортировать, а ещё отправить нам крашлог.
+ .
+ Перед началом
+ Отключите другие твики, которые меняют пункт управления: темы, стили модулей и собственные раскладки. ControlCenter18 сам рисует весь пункт управления, поэтому они будут конфликтовать.
+ .
+ Это бета-версия. Если что-то не работает, отправьте нам крашлог из настроек, и мы всё исправим.
+ .
+ .
+ Repo: https://repo.ya-ebal.mom
+ .
+ Local RootHide modification: hold the power button to open the eight-item
+ CCBorder menu, slide to select, and release to perform the action.
+ Native UIKit menu with 225-point menu and list measurement.
+ Adaptive system ultra-thin material, native labels and animation.
+ Original button press effect with native highlight completion adapter.
+ Module activation style 2, native hold-and-slide
+ selection. Scoped display-rate request.
+ Per-presentation cleanup and original-parent geometry.
+ Native status-bar layout without extra secondary-SIM translation.
+ Preserves jailbreak crash handlers. No added diagnostic UI or recording.
+ CCBorder is not required.
+ .
+ Layout mod (rootless): Control Center modules shifted down 22pt, header unchanged.
+ .
+Name: ControlCenter18
+Author: evgeniy558
+Icon: file:///var/jb/Library/PreferenceBundles/ControlCenter18Prefs.bundle/header-icon@3x.png
+SileoDepiction: file:///var/jb/Library/PreferenceBundles/ControlCenter18Prefs.bundle/Depiction/depiction.json
+
 Package: com.dafeiyu.ccscale
 Architecture: iphoneos-arm64
 Version: 1.9-3
