@@ -1,3 +1,101 @@
+Package: com.dafeiyu.ccscale
+Architecture: iphoneos-arm64
+Version: 1.9-3
+Section: Tweaks
+Maintainer: 大飞鱼
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 16.0), firmware (<< 18.0)
+Filename: debs/com.dafeiyu.ccscale_1.9-3_iphoneos-arm64.deb
+Size: 4460
+MD5sum: e74d7b4cfa6f1617ca1ae1f188157f3e
+SHA1: d9be27f35e5aedae1ab61039947c442a222210fd
+SHA256: a13c0b8252f01cad70eebbd34a401c110a8c7b2b0181ffe5eebbba433b6672e7
+SHA512: 5e2d9ef764091d952398f7a00b85ec2f8d184eb80e41601d27a163e2f7232a0ec361694faee26caa8e6e0109655f2808430c7f8116be51f499a61e33e9c66bd6
+Description: 独立插件：控制中心整体放大 1.02 倍（参数已写死）
+ 独立插件，把控制中心（含 ControlCenter18）整体放大到 1.02 倍，无需任何配置。
+ .
+ 原理：hook SpringBoard 的 CCUIModularControlCenterOverlayViewController，
+ 布局完成后先修正 bounds 再套用整体缩放，不改动 ControlCenter18 本体。
+ .
+ 参数已写死（安装即生效）：
+ - Scale = 1.02（原生为 1.00）
+ - OffsetX = 0，OffsetY = 0
+ .
+ 不读取任何配置文件，因此重装/升级后效果恒定，不受历史 plist 影响。
+ 如需其他数值，需修改源码中的 kCCScale / kCCOffsetX / kCCOffsetY 后重新编译。
+ .
+ 适用：iPhone SE 3 / iOS 16.1；支持 rootless 与 roothide 环境。
+ 卸载即恢复原状，无安装脚本、无残留。
+Name: CCScale
+Author: 大飞鱼
+
+Package: com.dafeiyu.ccscale
+Architecture: iphoneos-arm64e
+Version: 1.9-3
+Section: Tweaks
+Maintainer: 大飞鱼
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 16.0), firmware (<< 18.0)
+Filename: debs/com.dafeiyu.ccscale_1.9-3_iphoneos-arm64e（roothide.deb
+Size: 4388
+MD5sum: 97a84f310234c73135ae3cbc89594970
+SHA1: 916667df506be3a21f6bdf220c8e8b69deb2fecf
+SHA256: 796ecad0134ee0262f6b7045ff3b1975c8cd785632a86f89b28c1019512bcd0f
+SHA512: 1d78f27870a284d8ff434341d6e6a9da61b6577c439a8595bb2a97afbfd081b6e564134ed93d028172a469ad1158cd94d245dcefb605cb6072b068aae4dbbea2
+Description: 独立插件：控制中心整体放大 1.02 倍（参数已写死）
+ 独立插件，把控制中心（含 ControlCenter18）整体放大到 1.02 倍，无需任何配置。
+ .
+ 原理：hook SpringBoard 的 CCUIModularControlCenterOverlayViewController，
+ 布局完成后先修正 bounds 再套用整体缩放，不改动 ControlCenter18 本体。
+ .
+ 参数已写死（安装即生效）：
+ - Scale = 1.02（原生为 1.00）
+ - OffsetX = 0，OffsetY = 0
+ .
+ 不读取任何配置文件，因此重装/升级后效果恒定，不受历史 plist 影响。
+ 如需其他数值，需修改源码中的 kCCScale / kCCOffsetX / kCCOffsetY 后重新编译。
+ .
+ 适用：iPhone SE 3 / iOS 16.1；支持 rootless 与 roothide 环境。
+ 卸载即恢复原状，无安装脚本、无残留。
+Name: CCScale
+Author: 大飞鱼
+
+Package: com.dafeiyu.nochevron
+Architecture: iphoneos-arm64
+Version: 1.0-3
+Section: Tweaks
+Maintainer: 大飞鱼
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 16.0), firmware (<< 18.0)
+Filename: debs/com.dafeiyu.nochevron_1.0-3_iphoneos-arm64.deb
+Size: 4302
+MD5sum: ddb2b9a2f2959bf2e761d8b4c86fd916
+SHA1: ea83aef8278a7c1e3b954eb552f753db15d3bdce
+SHA256: 9e9b589c3bb293d694ad8a9fe8f4c8a440b9ab59e505aa986e1f3a0e6d5234bc
+SHA512: 4c4f77cea1170bfc6f334221593e021a19e3ec23940b00e624bcb281e93730b73960e352edf7a7a225280d4dcf2011c9c316d166773c1baf5c48f6da355327e6
+Description: 独立插件，隐藏控制中心顶部的「拉手」(chevron)
+Tag: compatible_min::ios16.0
+Name: NoChevron
+Author: 大飞鱼
+
+Package: com.dafeiyu.nochevron
+Architecture: iphoneos-arm64e
+Version: 1.0-3
+Section: Tweaks
+Maintainer: 大飞鱼
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 16.0), firmware (<< 18.0)
+Filename: debs/com.dafeiyu.nochevron_1.0-3_iphoneos-arm64e_roothide.deb
+Size: 4234
+MD5sum: 05b9cb26d915d734f6b099389e43daef
+SHA1: 697d9b52223394bac893bf4dc14a5d4b0afd2041
+SHA256: b599ab30e1ea63826571c2cba20e3ba0a3f220c250918f3fe2efe51a7e044fff
+SHA512: cbd4c2798e2fffc7fad6da03f72f763ad5575418bc1da17c3a4ec7652a594d92f022673054794643ae03134769b73a16b7e77885b68e89a98de9d294229591e6
+Description: 独立插件，隐藏控制中心顶部的「拉手」(chevron)
+Tag: compatible_min::ios16.0
+Name: NoChevron
+Author: 大飞鱼
+
 Package: com.llld.fugap
 Architecture: iphoneos-arm64
 Version: 2.2.4-1

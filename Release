@@ -9,8 +9,8 @@ Description:
 Support: https://3449919932.github.io/
 Icon: https://3449919932.github.io/CydiaIcon.png
 MD5Sum:
- 2ecf9d0c2c519aab0cd5f008ba00c872  826 Packages
- 1636eec260341c5ea19d2be37e015c88  696 Packages.gz
+ 2a4bb3086aee50e18a45c6c11b08e3bb  5074 Packages
+ f4b0e2be2858ac4a8260d6aa1de0fbcf  2168 Packages.gz
 SHA256:
- 4a9e4c77747b549ef011909554b352d54a072eb1a63391f4a3ed1ed53b4cb3da  826 Packages
- ecad8398aaa1b1e7568812343af9aaf4ac355c271f84630c596db35a43d01b01  696 Packages.gz
+ cafdc424d69f845b278b9cfd73d9f5cdef82688f23d466f994fc4685e96f5afb  5074 Packages
+ db9cbc37fb47696286c85f051d52b11f2fd6fd0a1f98e6f4c53845c52d35c3fa  2168 Packages.gz
