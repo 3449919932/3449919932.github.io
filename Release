@@ -1,0 +1,16 @@
+Origin: 
+Label: 
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm64 iphoneos-arm64e
+Components: main
+Description: 
+Support: https://3449919932.github.io/
+Icon: https://3449919932.github.io/CydiaIcon.png
+MD5Sum:
+ 202f4e9075bd22936103b1e2209914b1  712 Packages
+ f874fe2975428f7128bd35d8aeae42c6  559 Packages.gz
+SHA256:
+ db1d6313df58b2c9bf7c8bb63b36e89115d181bc6f93ff95990de0f9da69bbf0  712 Packages
+ 03e6412c428d50cd7a90c38db87cd8bd753ee1d54cab182376bed80c9d63d3d5  559 Packages.gz

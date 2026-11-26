@@ -1,0 +1,18 @@
+Package: com.dafeiyu.nochevron
+Architecture: iphoneos-arm64e
+Version: 1.0-3
+Section: Tweaks
+Maintainer: 大飞鱼
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 16.0), firmware (<< 18.0)
+Filename: debs/com.dafeiyu.nochevron_1.0-3_iphoneos-arm64e.deb
+Size: 4234
+MD5sum: 05b9cb26d915d734f6b099389e43daef
+SHA1: 697d9b52223394bac893bf4dc14a5d4b0afd2041
+SHA256: b599ab30e1ea63826571c2cba20e3ba0a3f220c250918f3fe2efe51a7e044fff
+SHA512: cbd4c2798e2fffc7fad6da03f72f763ad5575418bc1da17c3a4ec7652a594d92f022673054794643ae03134769b73a16b7e77885b68e89a98de9d294229591e6
+Description: 独立插件，隐藏控制中心顶部的「拉手」(chevron)
+Tag: compatible_min::ios16.0
+Name: NoChevron
+Author: 大飞鱼
+
